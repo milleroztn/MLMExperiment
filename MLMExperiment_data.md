@@ -3,6 +3,8 @@ MLM Disclosure Experiment- Data Cleaning
 Austin M. Miller
 7/29/2022
 
+[back to main](https://milleroztn.github.io/MLMExperiment/)
+
 -   <a href="#introduction" id="toc-introduction">Introduction</a>
 -   <a href="#load-packages" id="toc-load-packages">Load Packages</a>
 -   <a href="#read-and-format-data" id="toc-read-and-format-data">Read and
@@ -475,3 +477,5 @@ organize the factor levels because it makes presentation easier later.
 
 The last line just cleans up all the lingering objects from the
 environment, leaving only the `mlm` data frame.
+
+[back to main](https://milleroztn.github.io/MLMExperiment/)
