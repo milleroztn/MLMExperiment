@@ -1,4 +1,4 @@
-MLM Experiment- Analysis Document
+MLM Disclosure Experiment- Analysis Document
 ================
 Austin Miller
 8/4/2022
