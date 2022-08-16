@@ -1,4 +1,4 @@
-MLM Disclosure Experiment- graphs
+MLM Disclosure Experiment- Graphs
 ================
 Austin M. Miller
 7/30/2022
