@@ -14,7 +14,7 @@ The first script cleans the raw data and prepares it for analysis. This document
 *  [a discussion about possible errors in the responses](https://milleroztn.github.io/MLMExperiment/MLMExperiment_data#order-of-earnings-questions)
 *  [a description of dropped observations](https://milleroztn.github.io/MLMExperiment/MLMExperiment_data#dropped-observations)
 
-Raw and clean data files are available here: https://github.com/milleroztn/MLMExperiment/tree/main/data
+Raw and clean data files are available here: [github.com/milleroztn/MLMExperiment/tree/main/data](https://github.com/milleroztn/MLMExperiment/tree/main/data)
 
 # Graphs
 [MLM Experiment- Graphs](https://milleroztn.github.io/MLMExperiment/MLMExperiment_graphs)
@@ -25,7 +25,7 @@ The next script generates and discusses graphs from the data, including:
 *  [Correlations of Interest v. Earnings](https://milleroztn.github.io/MLMExperiment/MLMExperiment_graphs#correlation-of-interest-v-earnings)
 *  [Correlations of Better-than-average Effect with Interest and Earnings](https://milleroztn.github.io/MLMExperiment/MLMExperiment_graphs#better-than-average-effect)
 
-Graph files are available here: https://github.com/milleroztn/MLMExperiment/tree/main/graphs
+Graph files are available here: [github.com/milleroztn/MLMExperiment/tree/main/graphs](https://github.com/milleroztn/MLMExperiment/tree/main/graphs)
 
 # Summary Tables
 [MLM Experiment- Summary Tables](https://milleroztn.github.io/MLMExperiment/MLMExperiment_sumstats)
@@ -36,9 +36,9 @@ This script generates and discusses summary tables from the data, including:
 *  [Significant Correlations with Dependent Variables](https://milleroztn.github.io/MLMExperiment/MLMExperiment_sumstats#correlations)
 *  [Distributions of Dependent Variables Across Treatment Groups](https://milleroztn.github.io/MLMExperiment/MLMExperiment_sumstats#distributions-of-dependent-variables-across-treatment-groups), including tests for differences in means, medians, and variances
 
-The generated \*.csv files from this script are available here: https://github.com/milleroztn/MLMExperiment/tree/main/descriptive
+The generated \*.csv files from this script are available here: [github.com/milleroztn/MLMExperiment/tree/main/descriptive](https://github.com/milleroztn/MLMExperiment/tree/main/descriptive)
 
-This document also employs an R Shiny app described here: https://github.com/milleroztn/MLMExperiment/tree/main/correlations%20app
+This document also employs an R Shiny app described here: [correlations app](https://github.com/milleroztn/MLMExperiment/tree/main/correlations%20app)
 
 # Analysis
 [MLM Experiment- Analysis](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis)
@@ -52,6 +52,6 @@ This final script contains all of the regression analysis that supports the fina
 *  [Models of the Effects on Interest of Thinking About Earnings](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis#thinking-about-earnings-on-interest)
 
 This document also employs two R Shiny apps, 
-described here: https://github.com/milleroztn/MLMExperiment/tree/main/heterogeneous%20app
+described here: [Heterogeneous Treatment App](https://github.com/milleroztn/MLMExperiment/tree/main/heterogeneous%20app)
 
-and here: https://github.com/milleroztn/MLMExperiment/tree/main/log%20app
+and here: [Logarithm App](https://github.com/milleroztn/MLMExperiment/tree/main/log%20app)
