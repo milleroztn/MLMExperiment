@@ -414,8 +414,10 @@ The distribution of residuals when regressing `log(interest)` on
 on `treatment`. The following section repeats this process for each
 dependent variable.
 
+
 <iframe src="https://uncle-pasta.shinyapps.io/log-app/?showcase=0" width="100%" height="1100px" data-external="1">
 </iframe>
+
 
 You can see that generally the logarithmic transformation results in
 more normal residuals.
@@ -675,8 +677,10 @@ observed in the aggregate.
 The following section repeats this heterogeneous treatment effect
 analysis with interaction terms for other covariates of interest.
 
+
 <iframe src="https://uncle-pasta.shinyapps.io/heterogeneous_app/?showcase=0" width="100%" height="775px" data-external="1">
 </iframe>
+
 
 According to these models, it seems that `age` interacts with `interest`
 and `treatment` in a similar way as `numeracy`. For those younger than
