@@ -3,6 +3,8 @@ MLM Disclosure Experiment- Data Summary Tables
 Austin Miller
 7/31/2022
 
+[back to main](https://milleroztn.github.io/MLMExperiment/)
+
 -   <a href="#introduction" id="toc-introduction">Introduction</a>
 -   <a href="#load-packages" id="toc-load-packages">Load Packages</a>
 -   <a href="#read-data" id="toc-read-data">Read Data</a>
@@ -858,3 +860,5 @@ groups than in the control group. As the value of this variable has a
 maximum at 100 percent, we are unlikely to observe the same effect of a
 few relatively high values pulling up the mean as we see in the
 distributions `earnings` or `earnmost`.
+
+[back to main](https://milleroztn.github.io/MLMExperiment/)
