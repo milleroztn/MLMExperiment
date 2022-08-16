@@ -53,7 +53,7 @@ them are just included in most of my R scripts by default.
 # Read Data
 
 ``` r
-mlm <- readRDS("mlm_2022_clean.rds")
+mlm <- readRDS("data/mlm_2022_clean.rds")
 ```
 
 This line reads in the data created by the `MLMExperiment_data.Rmd`
@@ -77,7 +77,7 @@ ggplot(mlm, aes(interestg)) +
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 ``` r
-ggsave("h_interest.png",width=6,height=5)
+ggsave("graphs/h_interest.png",width=6,height=5)
 ```
 
 We have two big takeaways here. First, most people report absolutely no
@@ -107,7 +107,7 @@ ggplot(mlm, aes(earnings)) +
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 ``` r
-ggsave("b_earnings.png",width=6.5,height=5)
+ggsave("graphs/b_earnings.png",width=6.5,height=5)
 ```
 
 Two interesting, simultaneous effects can be observed in this graph.
@@ -138,7 +138,7 @@ ggplot(mlm %>% filter(earnmost<5000000)) +
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
-ggsave("b_maxearn.png",width=6.5,height=5)
+ggsave("graphs/b_maxearn.png",width=6.5,height=5)
 ```
 
 The two competing effects observed in the estimated Typical Earnings are
@@ -171,7 +171,7 @@ ggplot(mlm %>% filter(earnleast<150000)) +
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ``` r
-ggsave("b_minearn.png",width=6.5,height=5)
+ggsave("graphs/b_minearn.png",width=6.5,height=5)
 ```
 
 When we look at the distributions of expected Least Earnings, we still
@@ -199,7 +199,7 @@ ggplot(mlm, aes(over6)) +
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ``` r
-ggsave("b_over6.png",width=6.5,height=5)
+ggsave("graphs/b_over6.png",width=6.5,height=5)
 ```
 
 The marketing materials also mentioned the possibility of $500 of
@@ -229,7 +229,7 @@ ggplot(mlm %>% filter(!is.na(expenses))) +
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ``` r
-ggsave("b_expenses.png",width=6.5,height=5)
+ggsave("graphs/b_expenses.png",width=6.5,height=5)
 ```
 
 Finally, respondents in this experiment were never given any information
@@ -272,7 +272,7 @@ ggplot(mlm,aes(y=earnings,x=interestg))+
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 ``` r
-ggsave("InterestvEarnings.png",width=6,height=4.5)
+ggsave("graphs/InterestvEarnings.png",width=6,height=4.5)
 ```
 
 It is obvious that most people have both low interest and low earnings
@@ -294,7 +294,7 @@ ggplot(mlm,aes(y=learnings,x=interestg))+
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ``` r
-ggsave("interestvlearnings.png",width=6,height=4.5)
+ggsave("graphs/interestvlearnings.png",width=6,height=4.5)
 ```
 
 The pattern becomes more apparent when we look at the distribution of
@@ -326,7 +326,7 @@ ggplot(mlm,aes(y=earnings,x=as.factor(earnbta)))+
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ``` r
-ggsave("BTAvEarnings.png",width=6,height=4.5)
+ggsave("graphs/BTAvEarnings.png",width=6,height=4.5)
 ```
 
 As is consistent with tasks generally presumed to be more difficult or
@@ -374,7 +374,7 @@ ggplot(mlm,aes(y=interest,x=as.factor(earnbta)))+
 ![](MLMExperiment_graphs_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
 ``` r
-ggsave("BTAvInterest.png",width=6,height=4.5)
+ggsave("graphs/BTAvInterest.png",width=6,height=4.5)
 ```
 
 Finally, it is no surprise that those who believe they will earn more
