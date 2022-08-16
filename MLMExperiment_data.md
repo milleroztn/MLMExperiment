@@ -1,4 +1,4 @@
-MLM Disclosure Experiment- data cleaning
+MLM Disclosure Experiment- Data Cleaning
 ================
 Austin M. Miller
 7/29/2022
