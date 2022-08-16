@@ -38,6 +38,8 @@ This script generates and discusses summary tables from the data, including:
 
 The generated \*.csv files from this script are available here: https://github.com/milleroztn/MLMExperiment/tree/main/descriptive
 
+This document also employs an R Shiny app described here: https://github.com/milleroztn/MLMExperiment/tree/main/correlations%20app
+
 # Analysis
 [MLM Experiment- Analysis](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis)
 
@@ -48,3 +50,8 @@ This final script contains all of the regression analysis that supports the fina
 *  [Alternative Interest Specifications](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis#alternative-interest-specifications)
 *  [Models of Heterogeneous Treatment Effects](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis#heterogeneous-treatment-effects)
 *  [Models of the Effects on Interest of Thinking About Earnings](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis#thinking-about-earnings-on-interest)
+
+This document also employs two R Shiny apps, 
+described here: https://github.com/milleroztn/MLMExperiment/tree/main/heterogeneous%20app
+
+and here: https://github.com/milleroztn/MLMExperiment/tree/main/log%20app
