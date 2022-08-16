@@ -3,6 +3,8 @@ MLM Disclosure Experiment- Analysis Document
 Austin Miller
 8/4/2022
 
+[back to main](https://milleroztn.github.io/MLMExperiment/)
+
 -   <a href="#introduction" id="toc-introduction">Introduction</a>
 -   <a href="#load-packages" id="toc-load-packages">Load Packages</a>
 -   <a href="#read-data" id="toc-read-data">Read Data</a>
@@ -1065,3 +1067,5 @@ between 40 and 60 percent higher than others (exp(0.34) = 1.40 and
 exp(0.48) = 1.62), but the average effect of being asked about earnings
 first seems to be the same for these people as evidenced by the lack of
 significance in the interaction term.
+
+[back to main](https://milleroztn.github.io/MLMExperiment/)
