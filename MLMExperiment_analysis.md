@@ -48,7 +48,7 @@ control group did not receive any income disclosure information;
 treatment group 1 received the income disclosure document created by the
 MLM firm itself; and treatment group 2 received an augmented form of the
 firm’s income disclosure information that included a graph and presented
-how many participants in the firm actually earned zero dollars. The analysis from this experiment was recently accepted for publication as "Income Disclosure and Consumer Judgment in a Multi-level Marketing Experiment" in Journal of Consumer Affairs.
+how many participants in the firm actually earned zero dollars. The analysis from this experiment was recently accepted for publication as "[Income Disclosure and Consumer Judgment in a Multi-level Marketing Experiment](https://onlinelibrary.wiley.com/doi/10.1111/joca.12492)" in Journal of Consumer Affairs.
 
 # Load Packages
 
