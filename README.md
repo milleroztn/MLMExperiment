@@ -16,7 +16,7 @@ and here: [correlations app](https://github.com/milleroztn/MLMExperiment/tree/ma
 # Analysis
 [MLM Experiment- Analysis](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis)
 
-This final script contains all of the regression analysis that supports the final paper. This includes:
+This script contains all of the regression analysis that supports the final paper. This includes:
 
 *  [Main Model of the Income Disclosure Effects on All Dependent Variables](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis#income-disclosure-effects-on-all-dependent-variables)
 *  [A Graphical Justification for Logarithmic Transforms of Dependent Variables](https://milleroztn.github.io/MLMExperiment/MLMExperiment_analysis#justification-for-logarithmic-transforms)
@@ -27,7 +27,7 @@ This final script contains all of the regression analysis that supports the fina
 # Data Cleaning
 [MLM Experiment- Data Cleaning](https://milleroztn.github.io/MLMExperiment/MLMExperiment_data)
 
-The first script cleans the raw data and prepares it for analysis. This document includes:
+This script cleans the raw data and prepares it for analysis. This document includes:
 
 *  [a description of all data transformations](https://milleroztn.github.io/MLMExperiment/MLMExperiment_data#read-and-format-data)
 *  [a discussion about possible errors in the responses](https://milleroztn.github.io/MLMExperiment/MLMExperiment_data#order-of-earnings-questions)
